@@ -1,0 +1,9 @@
+export enum MessageType {
+  QUERY_NODE_STATUS,
+  NODE_STATUS,
+  QUERY_BLOCK,
+  BLOCK,
+  NEW_BLOCK,
+  NEW_TX,
+  BLOCK_CONF_ROUND
+}
